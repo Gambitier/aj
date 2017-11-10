@@ -1,6 +1,5 @@
 ---
-layout: page
-title: How to Visualize Your Data Using ggplot2
+layout: default
 ---
 
 <!-- Section -->
