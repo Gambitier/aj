@@ -21,6 +21,9 @@ Plots are more informative when they relate or compare several things, and an en
 # This is code snippet
 
 ---
+
 library(ggplot2)
+
 print(nrow(mpg))
+
 ---
