@@ -63,13 +63,13 @@ layout: default
 				 <li><a href="#" class="button">More</a></li>
 			 </ul>	
 		 </article>
+	</div>
 	<br>
 	<ul class="actions vertical">
 		<li>
 		    <a href="/archive/index.html" class="button fit">Load More Posts...</a> 
 		</li>
 	</ul>
-	</div>
 </section>   
 
 
