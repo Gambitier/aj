@@ -12,4 +12,5 @@ layout: default
 				<li><a href="#" class="button">More</a></li>
 			</ul>
 		</article>
-</section>    
+	</div>
+</section>   
