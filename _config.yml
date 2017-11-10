@@ -21,6 +21,7 @@ gems: [jekyll-paginate]
 # Jekyll paginate settings
 paginate: 4 
 paginate_path: "/archive/page:num/"
+paginate_path: /page:num/
 
 # Social settings
 500px_url:
