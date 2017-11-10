@@ -15,13 +15,13 @@ layout: default
 	<div class="posts">
 		{% for post in paginator.posts %}
 		<article>
-			<h2><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a></h2>
+			<h2>{{ post.title }}</h2>
 			<time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time>
 			<p>{{ post.content | strip_html | truncatewords:50 }}</p>
+			 <ul class="actions">
+				 <li><a href="#" class="button">More</a></li>
+			 </ul>	
 		 </article>
-		 <ul class="actions">
-			 <li><a href="#" class="button">More</a></li>
-		 </ul>	
 		{% endfor %}
 
 	</div>
