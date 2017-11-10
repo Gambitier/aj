@@ -46,15 +46,6 @@ layout: default
 			 </ul>	
 		 </article>
 		<article>
-			<h2>Post part IV</h2>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-			   Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-			   Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec 				   pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. </p>
-			 <ul class="actions">
-				 <li><a href="#" class="button">More</a></li>
-			 </ul>	
-		 </article>
-		<article>
 			<h2>Post 1</h2>
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
 			   Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
