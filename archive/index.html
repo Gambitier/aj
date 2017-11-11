@@ -13,8 +13,8 @@ layout: archive_posts
 		{% for post in paginator.posts %}
 		<article>
 			<header>
-				<h3>{{ post.title }}<br />
-				<time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time></h3>
+				<h3>{{ post.title }}</h3><br />
+				<time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time>
 			</header>
 			<p>{{ post.content | strip_html | truncatewords:50 }}</p>
 			 <ul class="actions">
