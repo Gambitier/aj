@@ -12,8 +12,8 @@ layout: archive_posts
 	<div class="posts">
 		{% for post in paginator.posts %}
 		<article>
-			<h2>{{ post.title }}</h2>
-			<time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time>
+			<h3>{{ post.title }}<br />
+			<time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time></h3>
 			<p>{{ post.content | strip_html | truncatewords:50 }}</p>
 			 <ul class="actions">
 				 <li><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}" class="button">More</a></li>
