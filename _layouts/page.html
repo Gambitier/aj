@@ -16,12 +16,9 @@
                   {% if page.image %}
                 	<span class="image main"><img src="{{ page.image | absolute_url }}" alt="" /></span>
                   {% endif %}
+			
                 {{ content }}
-              </div>
-          </div>
-          {% include sidebar.html %}
-      </div>
-      {% include footer.html %}
+			
 
 	<!-- Disqus Comments -->
 <div id="disqus_thread"></div>
@@ -44,7 +41,15 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                            
+                      
+			
+			
+              </div>
+          </div>
+          {% include sidebar.html %}
+      </div>
+      {% include footer.html %}
+      
 </body>
 </html>
 	
