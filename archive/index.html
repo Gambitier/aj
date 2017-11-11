@@ -15,7 +15,7 @@ layout: archive_posts
 			<header>
 				<h3>{{ post.title }}<br />
 				<time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time></h3>
-			<header>
+			</header>
 			<p>{{ post.content | strip_html | truncatewords:50 }}</p>
 			 <ul class="actions">
 				 <li><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}" class="button">More</a></li>
