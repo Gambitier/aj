@@ -1,47 +1,27 @@
 <!DOCTYPE HTML>
-<!--
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-
 {% include head.html %}
-
 <body>
-
     <!-- Wrapper -->
     <div id="wrapper">
-
         <!-- Main -->
         <div id="main">
             <div class="inner">
-
                 {% include header.html %}
-
                 <!-- Content -->
                 <section>
                 	<header class="main">
                 		<h1>{{ page.title }}</h1>
                 	</header>
-
                   {% if page.image %}
                 	<span class="image main"><img src="{{ page.image | absolute_url }}" alt="" /></span>
                   {% endif %}
-
                 {{ content }}
-
               </div>
           </div>
-
           {% include sidebar.html %}
-
       </div>
-
       {% include footer.html %}
-
-</body>
-</html>
 
 	<!-- Disqus Comments -->
 <div id="disqus_thread"></div>
@@ -65,5 +45,7 @@ s.setAttribute('data-timestamp', +new Date());
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
                             
+</body>
+</html>
 	
 	
