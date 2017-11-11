@@ -15,6 +15,9 @@ zip_code: 413304
 country: India
 phone: (+91) 
 
+#google analytics Tracking ID
+google_analytics: UA-107719407-1
+
 # Build settings
 gems: [jekyll-paginate] 
   
