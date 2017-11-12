@@ -22,7 +22,7 @@ layout: default
 			</div>
 		</article>
 		<article>
-			<span class="icon fa-rocket"></span>
+			<span class="fa fa-github"></span>
 			<div class="content">
 				<h3>Python Tutorials</h3>
 				<p>Python is a great multi-purpose programming language that you should definitely consider learning it. 				Also, it has very popular libraries like scikit-learn, NumPy, SciPy, Pandas and many more... </p>
@@ -31,7 +31,7 @@ layout: default
 	</div>
 </section>
 
-<!-- Section -->
+<!-- Section   <span class="icon fa-rocket"></span> -->
 <section>
 	<header class="major">
 		<h2>Recent Posts</h2>
