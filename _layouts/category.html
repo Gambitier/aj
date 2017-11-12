@@ -1,9 +1,20 @@
 ---
 layout: archive_posts
 ---
-
-{% for post in site.categories[page.category] %}
-    <a href="{{ post.url | absolute_url }}">
-      {{ post.title }}
-    </a>
-{% endfor %}
+<!-- Section -->
+<section>
+<!-- Posts -->
+	<div class="posts">   
+    {% for post in site.categories[page.category] %}
+            <article>
+                <header>
+                    <h3>{{ post.title }}</h3>
+                    <h6><time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time></h6>
+                </header>
+                <p>{{ post.content | strip_html | truncatewords:50 }}</p>
+                 <ul class="actions">
+                     <li><a href="{{ post.url | absolute_url }}">More</a></li>
+                 </ul>	
+             </article>
+    {% endfor %}
+</div>
