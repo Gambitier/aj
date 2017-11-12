@@ -4,14 +4,8 @@
 @import 'libs/skel';
 @import 'font-awesome.min.css';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700');
-
-/*
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-	@include skel-breakpoints((
+	
+@include skel-breakpoints((
 		xlarge: '(max-width: 1680px)',
 		large: '(max-width: 1280px)',
 		medium: '(max-width: 980px)',
@@ -21,15 +15,12 @@
 		xlarge-to-max: '(min-width: 1681px)',
 		small-to-xlarge: '(min-width: 481px) and (max-width: 1680px)'
 	));
-
-	@include skel-layout((
+@include skel-layout((
 		reset: 'full',
 		boxModel: 'border',
 		grid: ( gutters: 1.5em )
 	));
-
 //Pagination
-
 .pagination a, .pagination span {
     padding: 7px 18px;
     border: 1px solid #eee;
@@ -38,29 +29,19 @@
     background-color: #ffffff;
     display: inline-block;
   }
-
 .pagination a {    
     &:hover {
         background-color: #f1f1f1;
         color: #333;
     }
  }
-
 .pagination {
     text-align: center;
  }
-
-
-
-
-
 // Base.
-
 	@import 'base/page';
 	@import 'base/typography';
-
 // Component.
-
 	@import 'components/section';
 	@import 'components/form';
 	@import 'components/box';
@@ -72,9 +53,7 @@
 	@import 'components/mini-posts';
 	@import 'components/features';
 	@import 'components/posts';
-
 // Layout.
-
 	@import 'layout/wrapper';
 	@import 'layout/main';
 	@import 'layout/sidebar';
