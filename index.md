@@ -15,16 +15,16 @@ layout: default
 			</div>
 		</article>
 		<article>
-			<span class="icon"><img src="assets/images/python-original.svg" alt="" /></span>
+			<span class="icon fa-github"></span>
 			<div class="content">
 				<h3>R Tutorials</h3>
 				<p>R is an open source programming language and software environment for statistical computing and 			graphics. R is great for machine learning, data visualization and analysis, and some areas of scientific computing. </p>
 			</div>
 		</article>
 		<article>
-			<span class="icon fa-github"></span>
 			<div class="content">
 				<h3>Python Tutorials</h3>
+				<span><img src="assets/images/python-original.svg" alt="" /></span>
 				<p>Python is a great multi-purpose programming language that you should definitely consider learning it. 				Also, it has very popular libraries like scikit-learn, NumPy, SciPy, Pandas and many more... </p>
 			</div>
 		</article>
