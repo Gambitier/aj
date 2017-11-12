@@ -10,21 +10,21 @@ layout: default
 		<article>
 			<span class="icon fa-signal"></span>
 			<div class="content">
-				<h3>Maths for Data Science</h3>
+				<a href="/category/Maths Tutorials.html"><h3>Maths for Data Science</h3></a>
 				<p>The amount of math you'll need depends on the role. But, every data scientist needs to know some 					   statistics and probability theory. We have a guide for that.</p>
 			</div>
 		</article>
 		<article>
 			<span class="icon fa-github"></span>
 			<div class="content">
-				<h3>R Tutorials</h3>
+				<a href="/category/R Tutorials.html"><h3>R Tutorials</h3></a>
 				<p>R is an open source programming language and software environment for statistical computing and 			graphics. R is great for machine learning, data visualization and analysis, and some areas of scientific computing. </p>
 			</div>
 		</article>
 		<article>
 			<span class="icon fa-rocket"></span>
 			<div class="content">
-				<h3>Python Tutorials</h3></span>
+				<a href="/category/Python Tutorials.html"><h3>Python Tutorials</h3></a>
 				<p>Python is a great multi-purpose programming language that you should definitely consider learning it. 				Also, it has very popular libraries like scikit-learn, NumPy, SciPy, Pandas and many more... </p>
 			</div>
 		</article>
