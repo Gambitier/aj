@@ -1,6 +1,7 @@
 ---
 layout: page
 title: How to Visualize Your Data Using ggplot2
+category: R Tutorials
 ---
 
 # so let's begin...
