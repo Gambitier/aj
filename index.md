@@ -23,8 +23,8 @@ layout: default
 		</article>
 		<article>
 			<div class="content">
-				<h3>Python Tutorials</h3>
-				<span><img src="assets/images/python-original.svg" alt="" /></span>
+				<h3>Python Tutorials</h3></span>
+				<span class="icon"><img src="assets/images/python-original.svg" alt="" /></span>
 				<p>Python is a great multi-purpose programming language that you should definitely consider learning it. 				Also, it has very popular libraries like scikit-learn, NumPy, SciPy, Pandas and many more... </p>
 			</div>
 		</article>
