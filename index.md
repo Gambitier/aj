@@ -22,7 +22,7 @@ layout: default
 			</div>
 		</article>
 		<article>
-			<span class="fa fa-github"></span>
+			<span class="icon fa-github"></span>
 			<div class="content">
 				<h3>Python Tutorials</h3>
 				<p>Python is a great multi-purpose programming language that you should definitely consider learning it. 				Also, it has very popular libraries like scikit-learn, NumPy, SciPy, Pandas and many more... </p>
