@@ -15,7 +15,7 @@ layout: default
 			</div>
 		</article>
 		<article>
-			<span class="icon fa-paper-plane"></span>
+			<span class="icon"><img src="assets/images/python-original.svg" alt="" /></span>
 			<div class="content">
 				<h3>R Tutorials</h3>
 				<p>R is an open source programming language and software environment for statistical computing and 			graphics. R is great for machine learning, data visualization and analysis, and some areas of scientific computing. </p>
