@@ -10,7 +10,7 @@ layout: default
 		<article>
 			<span class="icon fa-signal"></span>
 			<div class="content">
-				<h3>Portitor ullamcorper</h3>
+				<h3>Maths for Data Science</h3>
 				<p>The amount of math you'll need depends on the role. But, every data scientist needs to know some 					   statistics and probability theory. We have a guide for that.</p>
 			</div>
 		</article>
