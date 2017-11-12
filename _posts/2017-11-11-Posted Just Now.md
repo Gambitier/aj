@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Posted Just Now
+category: Python Tutorials
 ---
 
 ### so let's begin...
