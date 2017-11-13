@@ -38,16 +38,16 @@ layout: default
  	</header>		
  <div class="posts">		
  {% for post in site.posts limit:4 %}		
- 	   <article>	   		
- 	    <header>		
- 	        <h3>{{ post.title }}</h3>		
- 		<h6><time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time></h6>		
-        	   </header>		
- 		<p>{{ post.content | strip_html | truncatewords:50 }}</p>		
- 		<ul class="actions">		
- 		 <li><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}class="button">More</a></li>
- 		 </ul>			
- </article>		
+		<article>
+			<header>
+				<h3>{{ post.title }}</h3>
+				<h6><time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time></h6>
+			</header>
+			<p>{{ post.content | strip_html | truncatewords:50 }}</p>
+			 <ul class="actions">
+				 <li><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}" class="button">More</a></li>
+			 </ul>	
+		 </article>
  {% endfor %}		
  </div>		
  	<br>		
