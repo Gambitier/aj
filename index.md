@@ -34,7 +34,7 @@ layout: default
 <!-- Section   <span class="icon fa-rocket"></span> -->
 <section>
 	<header class="major">
-		<h2>Recent Posts</h2>
+		<h2>Recent Posts akash jadhav</h2>
 	</header>
 <div class="posts">
 {% for post in site.posts % limit:4}
