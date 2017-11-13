@@ -30,6 +30,9 @@ gems :
 
 # Jekyll multiple paginate settings
 paginate_multiple:
+ - paginate: 6
+    paginate_path: '/archive/unsorted/page:num/'
+    sub_dir: '/unsorted'
   - paginate: 6
     paginate_path: '/archive/python_posts/page:num/'
     sub_dir: '/python_posts'
