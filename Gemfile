@@ -1,9 +1,6 @@
 source "https://rubygems.org"
 gemspec
-
-# If you want to use GitHub Pages
-gem "github-pages", group: :jekyll_plugins
-
+ 
 # If you have any plugins, put them here!
 #this is what i copied from other 
 #group :jekyll_plugins do
