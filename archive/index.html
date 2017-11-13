@@ -6,7 +6,9 @@ layout: archive_posts
 <!-- Posts -->
 
 	<div class="posts">
+		{% assign num = 1 %}
 		{% for post in paginator.posts %}
+		{% if num > 6 %}
 		<article>
 			<header>
 				<h3>{{ post.title }}</h3>
@@ -17,6 +19,8 @@ layout: archive_posts
 				 <li><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}" class="button">More</a></li>
 			 </ul>	
 		 </article>
+		{% endif %}
+		{% capture num %}{{ num | plus:1 }}{% endcapture %}
 		{% endfor %}
 	</div>
 	
