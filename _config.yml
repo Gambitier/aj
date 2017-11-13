@@ -1,9 +1,3 @@
-# Site settings
-# Site settings
-# Site settings
-# Site settings
-# Site settings
-# Site settings
 title: TheGambitier's Blog
 subtitle:
 email: blog.gambitier@gmail.com
@@ -22,19 +16,10 @@ phone: (+91)
 google_analytics: UA-107719407-1
 
 # Build settings
-#gems: [jekyll-paginate] 
 gems :
   - jekyll-paginate
   - jekyll-paginate-multiple
   
-# Jekyll paginate settings
-#paginate: 6 
-#paginate_path: "/archive/page:num/"
-
-###
-##
-#
-#
 # Jekyll multiple paginate settings
 paginate_multiple:
   - paginate: 6
@@ -49,6 +34,13 @@ paginate_multiple:
   - paginate: 6
     paginate_path: "/archive/r_posts/page:num/"
     sub_dir: "/r_posts"
+
+# Jekyll paginate original settings
+#gems: [jekyll-paginate] 
+#paginate: 6 
+#paginate_path: "/archive/page:num/"
+
+
 
 # Social settings
 500px_url:
