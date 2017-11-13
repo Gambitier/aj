@@ -37,7 +37,10 @@ layout: default
 		<h2>Recent Posts</h2>
 	</header>
 <div class="posts">
+{{ assign postCount = 0 }}
 {% for post in site.posts %}
+{{ postCount | plus: 1 }}
+	{% if postCount <= 4 %}
 	   <article>	   
 	    <header>
 	        <h3>{{ post.title }}</h3>
@@ -48,6 +51,7 @@ layout: default
 		 <li><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}" 			     class="button">More</a></li>
 		 </ul>	
            </article>
+	 {% endif %}
 {% endfor %}
 </div>
 	<br>
