@@ -31,11 +31,11 @@ layout: archive_posts
 
 		  {% for page in (1..paginator.total_pages) %}
 		    {% if page == paginator.page %}
-		      <span class="webjeda">{{ page }}</span>
+		      <span class="page active">{{ page }}</span>
 		    {% elsif page == 1 %}
-		      <a href="/">{{ page }}</a>
+		      <a class="page" href="/">{{ page }}</a>
 		    {% else %}
-		      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+		      <a class="page" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
 		    {% endif %}
 		  {% endfor %}
 
