@@ -36,66 +36,24 @@ layout: default
 	<header class="major">
 		<h2>Recent Posts</h2>
 	</header>
-	<div class="posts">
-		<article>
-			<h2>My new post</h2>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-			   Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-			   Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec 				   pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. </p>
-			 <ul class="actions">
-				 <li><a href="#" class="button">More</a></li>
-			 </ul>	
-		 </article>
-		<article>
-			<h2>Post part I</h2>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-			   Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-			   Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec 				   pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. </p>
-			 <ul class="actions">
-				 <li><a href="#" class="button">More</a></li>
-			 </ul>	
-		 </article>
-		<article>
-			<h2>Post part II</h2>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-			   Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-			   Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec 				   pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. </p>
-			 <ul class="actions">
-				 <li><a href="#" class="button">More</a></li>
-			 </ul>	
-		 </article>
-		<article>
-			<h2>Post part III</h2>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-			   Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-			   Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec 				   pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. </p>
-			 <ul class="actions">
-				 <li><a href="#" class="button">More</a></li>
-			 </ul>	
-		 </article>
-		<article>
-			<h2>Post 1</h2>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-			   Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-			   Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec 				   pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. </p>
-			 <ul class="actions">
-				 <li><a href="#" class="button">More</a></li>
-			 </ul>	
-		 </article>
-		<article>
-			<h2>Post 2</h2>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
-			   Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-			   Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec 				   pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. </p>
-			 <ul class="actions">
-				 <li><a href="#" class="button">More</a></li>
-			 </ul>	
-		 </article>
-	</div>
+<div class="posts">
+{% for post in site.posts %}
+	   <article>	   
+	    <header>
+	        <h3>{{ post.title }}</h3>
+		<h6><time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time></h6>
+       	   </header>
+		<p>{{ post.content | strip_html | truncatewords:50 }}</p>
+		<ul class="actions">
+		 <li><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}" 			     class="button">More</a></li>
+		 </ul>	
+           </article>
+{% endfor %}
+</div>
 	<br>
 	<ul class="actions vertical">
 		<li>
-		    <a href="/archive/index.html" class="button fit">Load More Posts...</a> 
+		    <a href="/archive/index.html" class="button fit">Load More Posts</a> 
 		</li>
 	</ul>
 </section>   
