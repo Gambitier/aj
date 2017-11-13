@@ -53,7 +53,7 @@ layout: default
  	<hr>	<br>	
  	<ul class="actions vertical">		
  		<li>		
- 	    <a href="/archive/index.html" class="button fit">Load More Posts</a> 		
+ 	    <a href="/archive/unsorted/index.html" class="button fit">Load More Posts</a> 		
  		</li>		
  	</ul>		
  </section>   		
