@@ -1,5 +1,3 @@
-
-
 # Site settings
 title: TheGambitier's Blog
 subtitle:
@@ -35,17 +33,17 @@ gems :
 # Jekyll multiple paginate settings
 paginate_multiple:
   - paginate: 6
-    paginate_path: '/archive/maths_posts/page:num/'
-    sub_dir: '/maths_posts'
+    paginate_path: "/archive/maths_posts/page:num/"
+    sub_dir: "/maths_posts"
  - paginate: 6
-    paginate_path: '/archive/unsorted/page:num/'
-    sub_dir: '/unsorted'
+    paginate_path: "/archive/unsorted/page:num/"
+    sub_dir: "/unsorted"
   - paginate: 6
-    paginate_path: '/archive/python_posts/page:num/'
-    sub_dir: '/python_posts'
+    paginate_path: "/archive/python_posts/page:num/"
+    sub_dir: "/python_posts"
   - paginate: 6
-    paginate_path: '/archive/r_posts/page:num/'
-    sub_dir: '/r_posts'
+    paginate_path: "/archive/r_posts/page:num/"
+    sub_dir: "/r_posts"
 
 # Social settings
 500px_url:
