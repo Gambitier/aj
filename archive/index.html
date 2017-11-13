@@ -22,7 +22,7 @@ layout: archive_posts
 	
 	<!-- pagination -->
 		{% if paginator.total_pages > 1 %}
-		<div class="pagination"> 
+		<ul class="pagination"> 
 		  {% if paginator.previous_page %}
 		   <li><a class="button" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
 		  {% else %}
@@ -44,6 +44,6 @@ layout: archive_posts
 		  {% else %}
 		   <li>  <span class="button disabled">Next &raquo;</span> </li>
 		  {% endif %}
-		</div>
+		</ul>
 		{% endif %}
 </section>   
