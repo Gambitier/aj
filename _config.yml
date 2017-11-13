@@ -22,7 +22,7 @@ google_analytics: UA-107719407-1
 gems: [jekyll-paginate] 
   
 # Jekyll paginate settings
-paginate: 4 
+paginate: 6 
 paginate_path: "/archive/page:num/"
 
 # Social settings
