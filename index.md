@@ -37,7 +37,7 @@ layout: default
  		<h2>Recent Posts</h2>		
  	</header>		
  <div class="posts">		
- {% for post in site.posts % limit:4}		
+ {% for post in site.posts limit:4 %}		
  	   <article>	   		
  	    <header>		
  	        <h3>{{ post.title }}</h3>		
