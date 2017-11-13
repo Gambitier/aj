@@ -37,7 +37,7 @@ layout: default
 		<h2>Recent Posts</h2>
 	</header>
 <div class="posts">
-{{ assign postCount = 0 }}
+{ assign postCount = 0 }
 {% for post in site.posts %}
 {{ postCount | plus: 1 }}
 	{% if postCount <= 4 %}
