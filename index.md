@@ -50,7 +50,7 @@ layout: default
 		 </article>
  {% endfor %}		
  </div>		
- 	<br>		
+ 	<br>	<hr>	
  	<ul class="actions vertical">		
  		<li>		
  	    <a href="/archive/index.html" class="button fit">Load More Posts</a> 		
