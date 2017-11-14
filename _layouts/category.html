@@ -17,12 +17,12 @@ layout: archive_posts
 		   <th>Date</th>
 		  </tr>
 		</thead>
-		   {% assign num = 0 %}
+		   {% assign count = 0 %}
     {% for post in site.categories[page.category] %}
-		   {% capture num %} {{ num | plus: 1 }}  {% endcapture %}
+		    {% assign count = count | plus: 1 %}
 		   <tbody>
 			<tr>
-			  <td>{{ num }}</td>
+			  <td>{{ count }}</td>
 			  <td><a href="{{ post.url | absolute_url }}"> {{ post.title }} </a></td>
 			  <td><time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time></td>
 			</tr>
