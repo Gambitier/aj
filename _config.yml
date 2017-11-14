@@ -27,13 +27,8 @@ gem 'jekyll-paginate', '~> 1.1'
 #gem 'jekyll-paginate-multiple', '~> 0.1.0'
   
 # Jekyll multiple paginate settings
-paginate_multiple:
-  - paginate: 6
-    paginate_path: "/archive/maths_posts/page:num/"
-    sub_dir: "/maths_posts"
- - paginate: 6
-    paginate_path: "/archive/unsorted/page:num/"
-    sub_dir: "/unsorted"
+paginate: 6
+paginate_path: "/archive/maths_posts/page:num/"
 
 
 # Social settings
