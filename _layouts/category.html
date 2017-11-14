@@ -12,13 +12,17 @@ layout: archive_posts
 	   <table class="alt">
 	       <thead>
 		  <tr>
+		   <th>Sr no.</th>
 		   <th>Title</th>
 		   <th>Date</th>
 		  </tr>
 		</thead>
+		   {% assign num = 0 %}
     {% for post in site.categories[page.category] %}
+		   {% capture site_tags %} {{ num | plus: 1 }}  {% endcapture %}
 		   <tbody>
 			<tr>
+			  <td>{{ num }}</td>
 			  <td><a href="{{ post.url | absolute_url }}"> {{ post.title }} </a></td>
 			  <td><time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time></td>
 			</tr>
