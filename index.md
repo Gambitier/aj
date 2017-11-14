@@ -23,7 +23,7 @@ layout: default
  	<hr>	<br>	
  	<ul class="actions vertical">		
  		<li>		
- 	    <a href="/archive/index.html" class="button fit">Load More Posts</a> 		
+ 	    <a href="https://gambitier.github.io/gambitier.github.io/archive/page2/" class="button fit">Load More Posts</a> 		
  		</li>		
  	</ul>		
  </section>   			
