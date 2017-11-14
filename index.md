@@ -3,20 +3,6 @@ layout: default
 ---		
  <!-- Section   <span class="icon fa-rocket"></span> -->		
  <section>		
-	     
-<script>
-  (function() {
-    var cx = '005282518294720483013:vlyysj4sop8';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search>
-	
  	<header class="major">		
  		<h2>Recent Posts</h2>		
  	</header>		
