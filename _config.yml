@@ -18,7 +18,7 @@ google_analytics: UA-107719407-1
 
 # Jekyll paginate original settings
 gems: [jekyll-paginate] 
-paginate: 6 
+paginate: 1 
 paginate_path: "/archive/page:num/"
  
 # Jekyll multiple paginate settings
