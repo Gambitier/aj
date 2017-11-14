@@ -22,7 +22,7 @@ layout: archive_posts
 			  <td><a href="{{ post.url | absolute_url }}"> {{ post.title }} </a></td>
 			  <td><time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time></td>
 			</tr>
-		   </tbody>	
-		</table>
-	</div>
+		   </tbody>		
     {% endfor %}
+  </table>
+</div>
