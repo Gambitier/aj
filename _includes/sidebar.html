@@ -10,7 +10,6 @@
           </header>
           <ul>
               <li><a href="{{ '' | absolute_url }}">Homepage</a></li>
-            <li><a href="{{ 'elements.html' | absolute_url }}">Elements</a></li>
             <li>
               <span class="opener">Categories</span>
               <ul>
@@ -65,7 +64,7 @@
 
       <!-- Footer -->
         <footer id="footer">
-          <p class="copyright">&copy; {{ site.title }}. All rights reserved. Powered by Jekyll Themes.</p>
+          <p class="copyright">&copy; <a href="{{ '' | absolute_url }}">{{ site.title }}</a>. All rights reserved.<br> Powered by Jekyll Themes.</p>
         </footer>
 
     </div>
