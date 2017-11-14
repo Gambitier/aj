@@ -23,8 +23,8 @@ google_analytics: UA-107719407-1
 
 # Build settings  
 
-#gem 'jekyll-paginate', '~> 1.1'
-gem 'jekyll-paginate-multiple', '~> 0.1.0'
+gem 'jekyll-paginate', '~> 1.1'
+#gem 'jekyll-paginate-multiple', '~> 0.1.0'
   
 # Jekyll multiple paginate settings
 paginate_multiple:
