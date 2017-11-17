@@ -23,17 +23,22 @@
 
 <!--  Tags -->
         <section>
-          <header class="Featured Posts:">
+          <header class="major">
             <h2>Tags</h2>
           </header>
-             {% for tag in page.tags %}
-              <ul class="actions small">
-                    <li>
-                      {% capture tag_name %}{{ tag }}{% endcapture %}
-                      <a href="/tag/{{ tag_name }}"><code class="button special small"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
-                    </li>
-              </ul>
-          {% endfor %}
+{% capture temptags %}
+  {% for tag in site.tags %}
+    {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedtemptags = temptags | split:' ' | sort | reverse %}
+{% for temptag in sortedtemptags %}
+  {% assign tagitems = temptag | split: '#' %}
+  {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
+  <a href="/tag/{{ tagname }}"><code class="highligher-rouge"><nobr>{{ tagname }}</nobr></code></a>
+{% endfor %}          
+          
+          
         </section>
 
       
