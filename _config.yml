@@ -15,6 +15,7 @@ phone: (+91) 9763714604
 #google analytics Tracking ID
 google_analytics: UA-107719407-1
 
+highlighter: rouge
 
 # Jekyll paginate original settings
 gems: [jekyll-paginate] 
