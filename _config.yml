@@ -10,7 +10,7 @@ city: Pandharpur
 state: Maharashtra
 zip_code: 413304
 country: India
-phone: (+91) 
+phone: (+91) 9763714604
 
 #google analytics Tracking ID
 google_analytics: UA-107719407-1
@@ -18,7 +18,7 @@ google_analytics: UA-107719407-1
 
 # Jekyll paginate original settings
 gems: [jekyll-paginate] 
-paginate: 1 
+paginate: 6 
 paginate_path: "/archive/page:num/"
  
 # Jekyll multiple paginate settings
