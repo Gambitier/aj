@@ -17,6 +17,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-PBJNGWD');</script>
 <!-- End Google Tag Manager -->
+ 
+ <!-- including the collecttag.html here so that it is executed before site.tags are used. -->
+ {% if site.tags != "" %}
+  {% include collecttags.html %}
+{% endif %}
+ <!-- End including the collecttag.html --> 
+  
+  
   <title>TheGambitier's Blog</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
