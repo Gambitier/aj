@@ -9,7 +9,7 @@ layout: archive_posts
 	{% for post in paginator.posts %}			
 			<article>
 		    <span>[Tags: 
-			  {% for tag in page.tags %}
+			  {% for tag in post.tags %}
 			    {% capture tag_name %}{{ tag }}{% endcapture %}
 			   |<a  href="/tag/{{ tag_name }}"><nobr>{{ tag_name }}</nobr>&nbsp;</a>|
 			  {% endfor %}
