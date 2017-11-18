@@ -9,6 +9,12 @@ layout: default
  <div class="posts">		
  {% for post in site.posts limit:6 %}		
 		<article>
+		    <span>[Tags: 
+			  {% for tag in post.tags %}
+			    {% capture tag_name %}{{ tag }}{% endcapture %}
+			   |<a  href="/tag/{{ tag_name }}"><nobr>{{ tag_name }}</nobr>&nbsp;</a>|
+			  {% endfor %}
+		   ]</span>
 			<header>
 				<h3>{{ post.title }}</h3>
 				<h6><time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time></h6>
