@@ -25,6 +25,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 	<header class="main">
                 		<h2>{{ page.title }}</h2>
                 	</header>
+			
+			{{ post.description }}
+			
                   {% if page.image %}
                 	<span class="image main"><img src="{{ page.image | absolute_url }}" alt="" /></span>
                   {% endif %}
