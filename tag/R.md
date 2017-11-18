@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: RStudio"
-tag: RStudio
+title: "Tag: R"
+tag: R
 ---
