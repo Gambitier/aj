@@ -1,3 +1,10 @@
+---
+layout: page
+title: Testing markdown_github variant.
+category: R Tutorials
+published: true
+tags: RStudio R
+---
 -   [R Markdown](#r-markdown)
 -   [Including Plots](#including-plots)
 -   [R Markdown](#r-markdown-1)
