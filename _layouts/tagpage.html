@@ -5,14 +5,12 @@ layout: archive_posts
 	<header class="major">
 		<h2>Tag: {{ page.tag }}</h2>
 	</header>
-</section>
-<div class="post">
+</section><br>
 <ul>
 {% for post in site.tags[page.tag] %}
-	<li><a href="{{ post.url }}"><h4>{{ post.title }}</h4></a> ({{ post.date | date_to_string }})<br>
-   <p>{{ post.content | strip_html | truncatewords:20 }}</p>
-  </li>
+<li><a href="{{ post.url }}"><h6>{{ post.title }}</h6></a>({{ post.date | date_to_string }})<br>
+<p>{{ post.content | strip_html | truncatewords:20 }}</p>
+ </li>
 {% endfor %}
 </ul>
-</div>
 <hr>
