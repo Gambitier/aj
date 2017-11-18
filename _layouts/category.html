@@ -10,21 +10,20 @@ layout: archive_posts
 <!-- Posts -->
 	<div class="table-wrapper">   
 	   <table class="alt">
-	       <thead>
-		  <tr>
-		   <th>Sr no.</th>
-		   <th>Title</th>
-		   <th>Date</th>
-		  </tr>
-		</thead>
+		   <tbody>
+			<tr>
+			  <td><h5>Sr no.</h5></td>
+			  <td><h5>Title</h5></td>
+			  <td><h5>Date</h5></td>
+			</tr>
+		   </tbody>
 		   {% assign count = 0 %}
     {% for post in site.categories[page.category] %}
 		    {% assign count = count | plus: 1 %}
 		   <tbody>
 			<tr>
 			  <td>{{ count }}</td>
-			  <td><a href="{{ post.url | absolute_url }}"> {{ post.title }} </a><br>
-				<p>{{ post.content | strip_html | truncatewords:20 }}</p></td>
+			  <td><a href="{{ post.url | absolute_url }}"> {{ post.title }} </a></td>
 			  <td><time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time></td>
 			</tr>
 		   </tbody>		
