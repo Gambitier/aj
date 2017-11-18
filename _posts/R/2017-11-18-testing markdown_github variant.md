@@ -4,8 +4,7 @@ title: Testing markdown_github variant.
 category: R Tutorials
 published: true
 tags: RStudio R
-description: |
-Solapur is a city located in the south-western region of the Indian state of Maharashtra. Solapur is located on major road and rail routes between Mumbai and Hyderabad, with a branch line to the cities ... Wikipedia
+description: routes between Mumbai and Hyderabad, with a branch line to the cities ... Wikipedia
  
 ---
 
