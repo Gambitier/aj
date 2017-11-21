@@ -31,6 +31,9 @@ paginate_path: "/archive/page:num/"
 #     paginate_path: "/archive/unsorted/page:num/"		
 #     sub_dir: "/unsorted"
 
+plugins:
+  - jekyll-sitemap
+
 
 # Social settings
 500px_url:
