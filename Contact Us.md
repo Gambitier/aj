@@ -1,5 +1,5 @@
 ---		 
-layout: category 		
+layout: archive_posts 		
 ---	
 <!-- Form -->
 <section>
