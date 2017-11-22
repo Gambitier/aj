@@ -2,6 +2,7 @@
 layout: category 		
 ---	
 <!-- Form -->
+<section>
 <h3>Contact Us</h3>
 <form  action="https://formspree.io/blog.gambitier@gmail.com" method="POST">
 <div class="row uniform">
@@ -23,3 +24,4 @@ layout: category
 </div>
 </div>
 </form>
+</section>
