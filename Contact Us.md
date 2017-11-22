@@ -19,7 +19,7 @@ layout: archive_posts
 <!-- Break -->
 <div class="12u$">
 <ul class="actions">
-<li><input type="hidden" name="_next" value="/thanks.html" /></li>
+<li><input type="hidden" name="_next" value="/thanks.html" />Send Message</li>
 </ul>
 </div>
 </div>
