@@ -1,6 +1,7 @@
 ---		 
 layout: default		
----		
+---	
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"6f86671c44fdb0978c52ea2e6","lid":"70c7d1976e"}) })</script>
  <!-- Section   <span class="icon fa-rocket"></span> -->		
  <section>		
  	<header class="major">		
