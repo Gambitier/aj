@@ -15,7 +15,7 @@ layout: archive_posts
 				<p>{{  post.content | strip_html | truncatewords:30 }}</p>
 				 <ul class="actions">
 					 <li><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}" class="button">More</a></li>
-				 </ul>	<br>
+				 </ul>
 		    <span>[Tags: 
 			  {% for tag in post.tags %}
 			    {% capture tag_name %}{{ tag }}{% endcapture %}
