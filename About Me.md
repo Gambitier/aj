@@ -15,5 +15,5 @@ title: About Me
       <blockquote>If you can't explain it simply, you don't understand it well enough. <br>-Albert Einstein</blockquote>
         So, I want to understand things clearly, and explain them well.<br>
         I hpoe you will enjoy interesting (hope so!) blog posts.!!
-       </p>
+       </p><hr>
  
