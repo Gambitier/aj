@@ -18,4 +18,4 @@ title: About Me
         I hpoe you will enjoy interesting (hope so!) blog posts.!!
        </p> </div>
        <span class="image object">  <img  src="assets/images/akash.jpg" alt="" /></span>
-  </section>       <hr>
+  </section><hr>
