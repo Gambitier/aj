@@ -23,6 +23,7 @@ layout: default
 		</article>
 		<article> 
 			<div class="content">
+			<span  class="image left"><img src="assets/images/Maths.png" alt="" /></span>
 				<h3><a href="/category/Maths Tutorials.html"> Maths for Data Science </a></h3>
 				<p> </p>
 			</div>
