@@ -1,10 +1,9 @@
 ---		 
 layout: About
 title: About Me	
+image: assets/images/akash.jpg
 ---	
- <section id="banner">
-    <div class="content">
-         <p>
+<p>
          Hi, I’m your host, Akash Jadhav. I’m currently an undergraduate student pursuing my bachelor's in 
          computer science and engineering. <br> <br>
       My interests include learning different programming languages, Data science & Machine Learning. 
@@ -16,6 +15,4 @@ title: About Me
       <blockquote>If you can't explain it simply, you don't understand it well enough. <br>-Albert Einstein</blockquote>
         So, I want to understand things clearly, and explain them well.
         I hpoe you will enjoy interesting (hope so!) blog posts.!!
-       </p> </div>
-       <span class="image object">  <img  src="assets/images/akash.jpg" alt="" /></span>
-  </section><hr>
+</p><hr>
