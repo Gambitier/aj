@@ -1,6 +1,32 @@
 ---		 
 layout: default		
 ---	
+<!-- Section -->
+<section>
+	<header class="major">
+		<h2Categories</h2>
+	</header>
+	<div class="features">
+		<article>
+			<div class="content">
+				<h3><a href="/category/Python Tutorials.html">Python Tutorials </a></h3>
+				<p></p>
+			</div>
+		</article>
+		<article> 
+			<div class="content">
+				<h3><a href="/category/R Tutorials.html"> R Tutorials </a></h3>
+				<p> </p>
+			</div>
+		</article>
+		<article> 
+			<div class="content">
+				<h3><a href="/category/Maths Tutorials.html"> Maths for Data Science </a></h3>
+				<p> </p>
+			</div>
+		</article>
+	</div>
+</section>
 
  <!-- Section   <span class="icon fa-rocket"></span> -->		
  <section>		
