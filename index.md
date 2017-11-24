@@ -8,16 +8,16 @@ layout: default
 	</header>
 	<div class="features">
 		<article>
-			<span  class="image left"><img src="assets/images/Python.svg.png" alt="" /></span>
+			<span  class="image left"><img src="assets/images/Python.ico" alt="" /></span>
 			<div class="content">
-				<h3><a href="/category/Python Tutorials.html">Python</a></h3>
+				<h3><a href="/category/Python Tutorials.html">Python Tutorials</a></h3>
 				<p></p>
 			</div>
 		</article>
 		<article> 
 			<div class="content">
 			<span  class="image left"><img src="assets/images/R.svg.png" alt="" /></span>
-				<h3><a href="/category/R Tutorials.html">R</a></h3>
+				<h3><a href="/category/R Tutorials.html">R Tutorials</a></h3>
 				<p> </p>
 			</div>
 		</article>
@@ -25,6 +25,13 @@ layout: default
 			<div class="content">
 			<span  class="image left"><img src="assets/images/Maths.png" alt="" /></span>
 				<h3><a href="/category/Maths Tutorials.html"> Maths for Data Science </a></h3>
+				<p> </p>
+			</div>
+		</article>		
+		<article> 
+			<div class="content">
+			<span  class="image left"><img src="assets/images/Projects.png" alt="" /></span>
+				<h3><a href="#"> Projects </a></h3>
 				<p> </p>
 			</div>
 		</article>
