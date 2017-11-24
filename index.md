@@ -8,8 +8,8 @@ layout: default
 	</header>
 	<div class="features">
 		<article>
-			<span  class="image left"><img src="assets/images/Python.ico" alt="" /></span>
 			<div class="content">
+			<span  class="image left"><img src="assets/images/Python.ico" alt="" /></span>
 				<h3><a href="/category/Python Tutorials.html">Python Tutorials</a></h3>
 				<p> </p>
 			</div>
