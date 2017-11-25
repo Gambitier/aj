@@ -15,6 +15,9 @@ layout: default
 						<li>oneTwo Three</li>
 						<li>oneTwo Three</li>
 						<li>oneTwo Three</li>
+						<li>oneTwo Three</li>
+						<li>oneTwo Three</li>
+						<li>oneTwo Three</li>
                                 </ul> </p>
 			</div>
 		</article>
@@ -37,6 +40,9 @@ layout: default
 						<li>oneTwo Three</li>
 						<li>oneTwo Three</li>
 						<li>oneTwo Three</li>
+						<li>oneTwo Three</li>
+						<li>oneTwo Three</li>
+						<li>oneTwo Three</li>
                                 </ul> </p>
 			</div>
 		</article>		
@@ -45,6 +51,12 @@ layout: default
 			<span  class="image left"><img src="assets/images/Projects.png" alt="" /></span>
 				<h3><a href="#"> Projects </a></h3>
 				<p><ul>
+						<li>oneTwo Three</li>
+						<li>oneTwo Three</li>
+						<li>oneTwo Three</li>
+						<li>oneTwo Three</li>
+						<li>oneTwo Three</li>
+						<li>oneTwo Three</li>
 						<li>oneTwo Three</li>
 						<li>oneTwo Three</li>
 						<li>oneTwo Three</li>
