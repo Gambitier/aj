@@ -8,8 +8,8 @@ layout: default
 	</header>
 	<div class="features">
 		<article>
-			<div class="content">
 			<span  class="image left"><img src="assets/images/Python.ico" alt="" /></span>
+			<div class="content">
 				<h3><a href="/category/Python Tutorials.html">Python Tutorials</a></h3>
 				<p><ul>
 						<li>oneTwo Three</li>
@@ -22,8 +22,8 @@ layout: default
 			</div>
 		</article>
 		<article> 
-			<div class="content">
 			<span  class="image left"><img src="assets/images/R.svg.png" alt="" /></span>
+			<div class="content">
 				<h3><a href="/category/R Tutorials.html">R Tutorials</a></h3>
 				<p><ul>
 						<li>oneTwo Three</li>
@@ -33,8 +33,8 @@ layout: default
 			</div>
 		</article>
 		<article> 
-			<div class="content">
 			<span  class="image left"><img src="assets/images/Maths.png" alt="" /></span>
+			<div class="content">
 				<h3><a href="/category/Maths Tutorials.html"> Maths for Data Science </a></h3>
 				<p><ul>
 						<li>oneTwo Three</li>
@@ -47,8 +47,8 @@ layout: default
 			</div>
 		</article>		
 		<article> 
-			<div class="content">
 			<span  class="image left"><img src="assets/images/Projects.png" alt="" /></span>
+			<div class="content">
 				<h3><a href="#"> Projects </a></h3>
 				<p><ul>
 						<li>oneTwo Three</li>
