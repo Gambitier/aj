@@ -10,21 +10,21 @@ layout: default
 		<article>
 			<div class="content">
 			<span  class="image left"><img src="assets/images/Python.ico" alt="" /></span>
-				<h3><a href="/category/Python Tutorials.html">Python Tutorials</a></h3>
+				<h3><a href="/category/Python Tutorials.html">Python For Data Science & Machine Learning</a></h3>
 				<p> </p>
 			</div>
 		</article>
 		<article> 
 			<div class="content">
 			<span  class="image left"><img src="assets/images/R.svg.png" alt="" /></span>
-				<h3><a href="/category/R Tutorials.html">R Tutorials</a></h3>
+				<h3><a href="/category/R Tutorials.html">R For Data Science & Machine Learning</a></h3>
 				<p> </p>
 			</div>
 		</article>
 		<article> 
 			<div class="content">
 			<span  class="image left"><img src="assets/images/Maths.png" alt="" /></span>
-				<h3><a href="/category/Maths Tutorials.html"> Maths for Data Science </a></h3>
+				<h3><a href="/category/Maths Tutorials.html"> Maths For Data Science & Machine Learning </a></h3>
 				<p> </p>
 			</div>
 		</article>		
