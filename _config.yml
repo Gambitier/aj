@@ -15,8 +15,7 @@ phone:
 #google analytics Tracking ID
 google_analytics: UA-107719407-1
 
-
-gems:
+plugins:
   - jekyll-sitemap
   
 # Jekyll paginate original settings
