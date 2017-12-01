@@ -1,5 +1,7 @@
 source "https://rubygems.org"
-gemspecgems:
+gemspec
+
+gems:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-feed
