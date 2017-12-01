@@ -2,6 +2,7 @@
 layout: About
 title: About Me	
 image: assets/images/akash.jpg
+sitemap: true
 ---	
 <p>
          Hi, I’m your host, Akash Jadhav. I’m currently an undergraduate student pursuing my bachelor's in 
