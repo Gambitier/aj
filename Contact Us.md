@@ -1,5 +1,6 @@
 ---		 
-layout: archive_posts 		
+layout: archive_posts 
+sitemap: true
 ---	
 <!-- Form -->
 <section>
