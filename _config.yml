@@ -15,7 +15,7 @@ phone:
 #google analytics Tracking ID
 google_analytics: UA-107719407-1
 
-plugins:
+gems:
   - jekyll-sitemap
   - jekyll-paginate
   
