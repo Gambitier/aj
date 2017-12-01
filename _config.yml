@@ -17,9 +17,10 @@ google_analytics: UA-107719407-1
 
 plugins:
   - jekyll-sitemap
+  - jekyll-paginate
   
 # Jekyll paginate original settings
-gems: [jekyll-paginate] 
+#gems: [jekyll-paginate] 
 paginate: 1 
 paginate_path: "/archive/page:num/"
  
