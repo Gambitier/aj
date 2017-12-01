@@ -1,5 +1,6 @@
 ---		 
-layout: default		
+layout: default	
+sitemap: true
 ---	
 <!-- Section -->
 <section>
