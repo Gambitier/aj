@@ -29,7 +29,7 @@ whitelist:
   
 # Jekyll paginate original settings
 #gems: [jekyll-paginate] 
-paginate: 1 
+paginate: 2
 paginate_path: "/archive/page:num/"
  
 # Jekyll multiple paginate settings
