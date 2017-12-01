@@ -3,8 +3,10 @@ gemspec
 
 gems:
   - jekyll-paginate
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll_video_tag
   - jekyll-sitemap
+
+#
+ # - jekyll-gist
+  #- jekyll-feed
+  #- jemoji
+  #- jekyll_video_tag
