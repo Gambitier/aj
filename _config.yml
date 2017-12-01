@@ -16,8 +16,8 @@ phone:
 google_analytics: UA-107719407-1
 
 gems:
-  - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-sitemap
   
 # Jekyll paginate original settings
 #gems: [jekyll-paginate] 
