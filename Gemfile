@@ -6,5 +6,5 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - jekyll-sitemap
   - jekyll_video_tag
+  - jekyll-sitemap
