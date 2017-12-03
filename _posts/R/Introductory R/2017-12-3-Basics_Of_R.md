@@ -19,7 +19,7 @@ R is a powerful statistical program but it is first and foremost a programming l
 
 -   [**The Help Command in R**](#the-help-command-in-r)
 -   [**Command Packages**](#command-packages)
--   [**Using R like a calculator**](#using-r-like-a-calculator)
+-   [**Using R like a calculator**](#using-r-like-a-calculator)        <br>
 -   [**Named Objects**](#named-objects)
     -   [**Assigning Named Objects**](#assigning-named-objects)
     -   [**Viewing Named Object's Value**](#viewing-named-objects-value)
@@ -33,7 +33,7 @@ R is a powerful statistical program but it is first and foremost a programming l
     -   [**Using Scan Command: scan()**](#using-scan-command-scan)
         -   [**Entering Numerical Data**](#entering-numerical-data-1)
         -   [**Entering Text Data Items**](#entering-text-data-items-1)
-        -   [**Reading a File From Disk**](#reading-a-file-from-disk)
+        -   [**Reading a File From Disk**](#reading-a-file-from-disk)   <nobr>
     -   [**Reading Bigger Data Files**](#reading-bigger-data-files)
 -   [**Data Types In R**](#data-types-in-r)
     -   [**Number Data**](#number-data)
