@@ -30,7 +30,7 @@ R is a powerful statistical program but it is first and foremost a programming l
     -   [**Using Combine command**](#using-combine-command)
         -   [**Entering Numerical Data**](#entering-numerical-data)
         -   [**Entering Text Data Items**](#entering-text-data-items)
-    -   [**Using Scan Command: *scan()* **](#using-scan-command-scan)
+    -   [**Using Scan Command: scan()**](#using-scan-command-scan)
         -   [**Entering Numerical Data**](#entering-numerical-data-1)
         -   [**Entering Text Data Items**](#entering-text-data-items-1)
         -   [**Reading a File From Disk**](#reading-a-file-from-disk)
