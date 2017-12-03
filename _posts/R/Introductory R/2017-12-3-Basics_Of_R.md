@@ -1,3 +1,22 @@
+---
+layout: page
+title: Basics Of R
+published: true
+category: R Tutorials
+tags: R 
+sitemap: true
+author: "AKASH JADHAV"
+---
+
+R is more than just a program that does statistics. It is a sophisticated computer language and environment for statistical computing and graphics. R is available from the R-Project for Statistical Computing website (www.r-project.org), and following is some of its introductory material:
+
+R is an open-source (GPL) statistical environment modeled after S and S-Plus. The S language was developed in the late 1980s at AT&T labs. The R project was started by Robert Gentleman and Ross Ihaka (hence the name, R) of the Statistics Department of the University of Auckland in 1995. It has quickly gained a widespread audience.
+
+It is currently maintained by the R core-development team, a hard-working, international team of volunteer developers. The R project webpage is the main site for information on R. At this site are directions for obtaining the software, accompanying packages, and other sources of documentation.
+
+R is a powerful statistical program but it is first and foremost a programming language. Many routines have been written for R by people all over the world and made freely available from the R project website as "packages."
+
+
 -   [**The Help Command in R**](#the-help-command-in-r)
 -   [**Command Packages**](#command-packages)
 -   [**Using R like a calculator**](#using-r-like-a-calculator)
@@ -35,13 +54,6 @@
     -   [**List Objects**](#list-objects)
 -   [**Examining Data Structure**](#examining-data-structure)
 
-R is more than just a program that does statistics. It is a sophisticated computer language and environment for statistical computing and graphics. R is available from the R-Project for Statistical Computing website (www.r-project.org), and following is some of its introductory material:
-
-R is an open-source (GPL) statistical environment modeled after S and S-Plus. The S language was developed in the late 1980s at AT&T labs. The R project was started by Robert Gentleman and Ross Ihaka (hence the name, R) of the Statistics Department of the University of Auckland in 1995. It has quickly gained a widespread audience.
-
-It is currently maintained by the R core-development team, a hard-working, international team of volunteer developers. The R project webpage is the main site for information on R. At this site are directions for obtaining the software, accompanying packages, and other sources of documentation.
-
-R is a powerful statistical program but it is first and foremost a programming language. Many routines have been written for R by people all over the world and made freely available from the R project website as "packages."
 
 **The Help Command in R**
 -------------------------
