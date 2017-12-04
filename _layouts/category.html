@@ -7,26 +7,26 @@ layout: archive_posts
 		<h2>{{ page.category }}</h2>
 	</header>
 </section>
+
 <!-- Posts -->
-	<div class="table-wrapper">   
-	   <table class="alt">
-		   <tbody>
-			<tr>
-			  <td><h5>Sr no.</h5></td>
-			  <td><h5>Title</h5></td>
-			  <td><h5>Date</h5></td>
-			</tr>
-		   </tbody>
-		   {% assign count = 0 %}
+	<div class="posts"> 
     {% for post in site.categories[page.category] %}
-		    {% assign count = count | plus: 1 %}
-		   <tbody>
-			<tr>
-			  <td>{{ count }}</td>
-			  <td><a href="{{ post.url | absolute_url }}"> {{ post.title }} </a></td>
-			  <td><time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time></td>
-			</tr>
-		   </tbody>		
-    {% endfor %}
-  </table>
-</div>
+		<article>
+				<header>
+					<h3>{{ post.title }}</h3>
+					<h6><time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time></h6>
+				</header>
+				<p>{{  post.content | strip_html | truncatewords:30 }}</p>
+				 <ul class="actions">
+					 <li><a href="{{ post.url | absolute_url }}"> More</a></li>
+				 </ul>
+		    <span>[Tags: 
+			  {% for tag in post.tags %}
+			    {% capture tag_name %}{{ tag }}{% endcapture %}
+			   |<a  href="/tag/{{ tag_name }}"><nobr>{{ tag_name }}</nobr>&nbsp;</a>|
+			  {% endfor %}
+		   ]</span>
+               </article>
+	   {% endfor %}
+	</div>
+ 
