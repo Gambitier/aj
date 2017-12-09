@@ -1,3 +1,17 @@
+---
+layout: page
+title: Working With Object
+published: true
+category: Elementary-R
+tags: R 
+sitemap: true
+author: "AKASH JADHAV"
+---
+
+Data objects are the fundamental items that you work with in R. Carrying out analyses on your data and making sense of the results are the primary reasons you are using R.
+
+When you collect data the first step is to get the data into R. After this you will want to look at your data, and perform summary statistics and other analyses on them. Although many analytical operations can be conducted on the data "as is," there will be many occasions when you will want to manipulate the data you have; you may want to reorder the data into a new and more informative manner,or you may want to extract certain parts of a complex data object for some further purpose.
+
 -   [**Manipulating Vectors**](#manipulating-vectors)
     -   [**Selecting and displaying certain parts**](#selecting-and-displaying-certain-parts)
     -   [**Sorting and rearranging**](#sorting-and-rearranging)
@@ -21,11 +35,7 @@
         -   [**Viewing row & column names**](#viewing-row-column-names)
         -   [**Setting row & column names**](#setting-row-column-names)
     -   [**(V) Rotating Data Tables**](#v-rotating-data-tables)
-
-Data objects are the fundamental items that you work with in R. Carrying out analyses on your data and making sense of the results are the primary reasons you are using R.
-
-When you collect data the first step is to get the data into R. After this you will want to look at your data, and perform summary statistics and other analyses on them. Although many analytical operations can be conducted on the data "as is," there will be many occasions when you will want to manipulate the data you have; you may want to reorder the data into a new and more informative manner,or you may want to extract certain parts of a complex data object for some further purpose.
-
+    
 **Manipulating Vectors**
 ------------------------
 
