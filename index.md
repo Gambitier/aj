@@ -21,14 +21,7 @@ sitemap: true
 				<h3><a href="/category/R Tutorials.html">R For Data Science & Machine Learning</a></h3>
 				<p> </p>
 			</div>
-		</article>		
-		<article> 
-			<div class="content">
-			<span  class="image left"><img src="assets/images/Projects.png" alt="" /></span>
-				<h3><a href="#"> Projects </a></h3>
-				<p> </p>
-			</div>
-		</article>
+		</article>	
 	</div>
 </section>
 
