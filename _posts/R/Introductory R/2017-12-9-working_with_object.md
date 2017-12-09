@@ -12,6 +12,12 @@ Data objects are the fundamental items that you work with in R. Carrying out ana
 
 When you collect data the first step is to get the data into R. After this you will want to look at your data, and perform summary statistics and other analyses on them. Although many analytical operations can be conducted on the data "as is," there will be many occasions when you will want to manipulate the data you have; you may want to reorder the data into a new and more informative manner,or you may want to extract certain parts of a complex data object for some further purpose.
 
+
+<ul class="actions">
+				<li><a href="https://raw.githubusercontent.com/Gambitier/gambitier.github.io/master/_posts/R/Introductory%20R/R%20Markdowns/2%20working%20with%20objects.rar" class="button icon fa-download">Download R Markdown & Dataset</a></li>
+			</ul>
+
+
 -   [**Manipulating Vectors**](#manipulating-vectors)
     -   [**Selecting and displaying certain parts**](#selecting-and-displaying-certain-parts)
     -   [**Sorting and rearranging**](#sorting-and-rearranging)
