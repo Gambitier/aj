@@ -17,7 +17,7 @@ It is currently maintained by the R core-development team, a hard-working, inter
 R is a powerful statistical program but it is first and foremost a programming language. Many routines have been written for R by people all over the world and made freely available from the R project website as "packages."
 
 <ul class="actions">
-				<li><a href="gambitier.github.io/_posts/R/Introductory R/R Markdowns/1 beginning R.rar" class="button icon fa-download">Download R Markdown & Dataset</a></li>
+				<li><a href="https://raw.githubusercontent.com/Gambitier/gambitier.github.io/master/_posts/R/Introductory%20R/R%20Markdowns/1%20beginning%20R.rar" class="button icon fa-download">Download R Markdown & Dataset</a></li>
 			</ul>
 
 -   [**The Help Command in R**](#the-help-command-in-r)
