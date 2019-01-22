@@ -18,22 +18,6 @@ Matplotlib is a multi-platform data visualization library built on NumPy arrays.
 !pip install pandas
 ```
 
-    Requirement already satisfied: numpy in /home/shubham/anaconda3/lib/python3.7/site-packages (1.15.4)
-    Requirement already satisfied: matplotlib in /home/shubham/anaconda3/lib/python3.7/site-packages (3.0.2)
-    Requirement already satisfied: numpy>=1.10.0 in /home/shubham/anaconda3/lib/python3.7/site-packages (from matplotlib) (1.15.4)
-    Requirement already satisfied: cycler>=0.10 in /home/shubham/anaconda3/lib/python3.7/site-packages (from matplotlib) (0.10.0)
-    Requirement already satisfied: kiwisolver>=1.0.1 in /home/shubham/anaconda3/lib/python3.7/site-packages (from matplotlib) (1.0.1)
-    Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /home/shubham/anaconda3/lib/python3.7/site-packages (from matplotlib) (2.3.0)
-    Requirement already satisfied: python-dateutil>=2.1 in /home/shubham/anaconda3/lib/python3.7/site-packages (from matplotlib) (2.7.5)
-    Requirement already satisfied: six in /home/shubham/anaconda3/lib/python3.7/site-packages (from cycler>=0.10->matplotlib) (1.12.0)
-    Requirement already satisfied: setuptools in /home/shubham/anaconda3/lib/python3.7/site-packages (from kiwisolver>=1.0.1->matplotlib) (40.6.3)
-    Requirement already satisfied: pandas in /home/shubham/anaconda3/lib/python3.7/site-packages (0.23.4)
-    Requirement already satisfied: python-dateutil>=2.5.0 in /home/shubham/anaconda3/lib/python3.7/site-packages (from pandas) (2.7.5)
-    Requirement already satisfied: pytz>=2011k in /home/shubham/anaconda3/lib/python3.7/site-packages (from pandas) (2018.7)
-    Requirement already satisfied: numpy>=1.9.0 in /home/shubham/anaconda3/lib/python3.7/site-packages (from pandas) (1.15.4)
-    Requirement already satisfied: six>=1.5 in /home/shubham/anaconda3/lib/python3.7/site-packages (from python-dateutil>=2.5.0->pandas) (1.12.0)
-
-
 
 ```python
 # importing librarires
@@ -200,7 +184,7 @@ plt.show()
 ```
 
 
-![png](/output_17_0.png)
+![png](output_17_0.png)
 
 
 The flow of this process, at a high level, looks like this:
@@ -231,7 +215,7 @@ plt.plot([0,1], [1,0])
 
 
 
-![png](\output_19_1.png)
+![png](output_19_1.png)
 
 
 
