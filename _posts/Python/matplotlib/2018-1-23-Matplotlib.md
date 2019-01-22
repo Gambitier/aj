@@ -215,7 +215,7 @@ plt.plot([0,1], [1,0])
 
 
 
-![png](output_19_1.png)
+![png](/assets/images/post_matplotlib/output_19_1.png)
 
 
 
@@ -226,7 +226,7 @@ plt.gcf().set_size_inches([10,8])
 ```
 
 
-![png](output_20_0.png)
+![png](/assets/images/post_matplotlib/output_20_0.png)
 
 
 
@@ -244,7 +244,7 @@ plt.plot(x, np.sin(x))
 
 
 
-![png](output_21_1.png)
+![png](/assets/images/post_matplotlib/output_21_1.png)
 
 
 
@@ -261,7 +261,7 @@ plt.plot(x, np.cos(x));
 ```
 
 
-![png](output_22_0.png)
+![png](/assets/images/post_matplotlib/output_22_0.png)
 
 
 ### 2. stateless (or rather object-oriented approach):
@@ -285,7 +285,7 @@ line = ax.plot(data)
 ```
 
 
-![png](output_24_0.png)
+![png](/assets/images/post_matplotlib/output_24_0.png)
 
 
 **what does argument in fig.add_subplot(111) mean?**
@@ -303,7 +303,7 @@ fig.set_size_inches([10, 8])
 ```
 
 
-![png](output_26_0.png)
+![png](/assets/images/post_matplotlib/output_26_0.png)
 
 
 
@@ -314,7 +314,7 @@ a = ax.plot(x, np.sin(x));
 ```
 
 
-![png](output_27_0.png)
+![png](/assets/images/post_matplotlib/output_27_0.png)
 
 
 
@@ -329,7 +329,7 @@ ax[1].plot(x, np.cos(x));
 ```
 
 
-![png](output_28_0.png)
+![png](/assets/images/post_matplotlib/output_28_0.png)
 
 
 # Saving Plots as images
@@ -347,7 +347,7 @@ plt.plot(x, np.cos(x), '--');
 ```
 
 
-![png](output_30_0.png)
+![png](/assets/images/post_matplotlib/output_30_0.png)
 
 
 
@@ -379,7 +379,7 @@ Image('my_figure.png')
 
 
 
-![png](output_33_0.png)
+![png](/assets/images/post_matplotlib/output_33_0.png)
 
 
 
@@ -412,7 +412,7 @@ ax = plt.axes()
 ```
 
 
-![png](output_38_0.png)
+![png](/assets/images/post_matplotlib/output_38_0.png)
 
 
 
@@ -421,7 +421,7 @@ fig, ax_lst = plt.subplots(2, 2)
 ```
 
 
-![png](output_39_0.png)
+![png](/assets/images/post_matplotlib/output_39_0.png)
 
 
 
@@ -446,7 +446,7 @@ fig1, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2)
 ```
 
 
-![png](output_41_0.png)
+![png](/assets/images/post_matplotlib/output_41_0.png)
 
 
 # plt.show()  v/s  plt.draw()
@@ -464,7 +464,7 @@ plt.show()
 ```
 
 
-![png](output_44_0.png)
+![png](/assets/images/post_matplotlib/output_44_0.png)
 
 
 
@@ -488,7 +488,7 @@ plt.show()
 ```
 
 
-![png](output_45_0.png)
+![png](/assets/images/post_matplotlib/output_45_0.png)
 
 
 ### plt.draw()
@@ -530,7 +530,7 @@ plt.show()
 ```
 
 
-![png](output_51_0.png)
+![png](/assets/images/post_matplotlib/output_51_0.png)
 
 
 ### How to use style in graph
@@ -554,7 +554,7 @@ plt.show()
 ```
 
 
-![png](output_53_0.png)
+![png](/assets/images/post_matplotlib/output_53_0.png)
 
 
 ### Bar Graph
@@ -571,7 +571,7 @@ plt.show()
 ```
 
 
-![png](output_55_0.png)
+![png](/assets/images/post_matplotlib/output_55_0.png)
 
 
 ### Histogram
@@ -592,7 +592,7 @@ plt.show()
 
 
 
-![png](output_57_1.png)
+![png](/assets/images/post_matplotlib/output_57_1.png)
 
 
 ### Scatter Plot
@@ -610,7 +610,7 @@ plt.show()
 ```
 
 
-![png](output_59_0.png)
+![png](/assets/images/post_matplotlib/output_59_0.png)
 
 
 ### Stack Plot
@@ -635,5 +635,5 @@ plt.show()
 ```
 
 
-![png](output_61_0.png)
+![png](/assets/images/post_matplotlib/output_61_0.png)
 
