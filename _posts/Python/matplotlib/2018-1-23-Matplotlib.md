@@ -13,9 +13,9 @@ Matplotlib is a multi-platform data visualization library built on NumPy arrays.
 
 ```python
 # installing dependencies
-!pip install numpy
-!pip install matplotlib
-!pip install pandas
+pip install numpy
+pip install matplotlib
+pip install pandas
 ```
 
 
