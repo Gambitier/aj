@@ -184,7 +184,7 @@ plt.show()
 ```
 
 
-![png](output_17_0.png)
+![png](output_17_0.png){:class="img-responsive"}
 
 
 The flow of this process, at a high level, looks like this:
@@ -215,7 +215,7 @@ plt.plot([0,1], [1,0])
 
 
 
-![png](output_19_1.png)
+![png](output_19_1.png){:class="img-responsive"}
 
 
 
@@ -226,7 +226,7 @@ plt.gcf().set_size_inches([10,8])
 ```
 
 
-![png](output_20_0.png)
+![png](output_20_0.png){:class="img-responsive"}
 
 
 
