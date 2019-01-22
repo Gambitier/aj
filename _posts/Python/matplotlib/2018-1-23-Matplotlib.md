@@ -184,7 +184,7 @@ plt.show()
 ```
 
 
-![png](/assets/images/output_17_0.png) 
+![png](/assets/images/post_matplotlib/output_17_0.png) 
 
 
 The flow of this process, at a high level, looks like this:
