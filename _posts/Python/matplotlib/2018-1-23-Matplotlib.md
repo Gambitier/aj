@@ -200,7 +200,7 @@ plt.show()
 ```
 
 
-![png](output_17_0.png)
+![png](/output_17_0.png)
 
 
 The flow of this process, at a high level, looks like this:
@@ -231,7 +231,7 @@ plt.plot([0,1], [1,0])
 
 
 
-![png](output_19_1.png)
+![png](\output_19_1.png)
 
 
 
